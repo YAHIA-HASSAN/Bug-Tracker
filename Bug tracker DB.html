@@ -39,7 +39,7 @@ tr:nth-child(even) {
 
 <a name='layout1'/><h4>Layout</h4>
 <div class='svgContainer'>
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'   width='704' height='574' viewBox='0 0 704 574' >
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'   width='480' height='494' viewBox='0 0 480 494' >
   <script type='text/ecmascript'>
   <![CDATA[
   function hghl(el) { for ( var i in el ){ var elem = document.getElementById(el[i]); if ( elem != null ) elem.setAttribute('class','highlight');  }  }
@@ -272,8 +272,8 @@ tr:nth-child(even) {
 
 <!-- == Shape Colors == -->
 <!-- == Desktop == -->
-<rect x='1' y='1' width='702' height='572' rx='8' ry='8' style='fill:url(#layoutBgA); stroke:#aaa; stroke-width:1px;' />
-<rect x='1' y='1' width='702' height='572' rx='8' ry='8' style='fill:url(#layoutBgEval);' />
+<rect x='1' y='1' width='478' height='492' rx='8' ry='8' style='fill:url(#layoutBgA); stroke:#aaa; stroke-width:1px;' />
+<rect x='1' y='1' width='478' height='492' rx='8' ry='8' style='fill:url(#layoutBgEval);' />
 
 <!-- == Legend == -->
 <g transform='translate(10,10)'>
@@ -287,154 +287,86 @@ DbSchema has a free Community Edition.</title></tspan></text></a>
 
 <g transform='translate(0,110)'>
 <!-- == Fk 'bugs_fk_bugs usrs' == -->
-<path id='bugs_fk_bugs usrs'  onmouseover="hghl(['bugs_fk_bugs usrs','public.bugs.usr_add_id','public.usrs.usr_id'])" onmouseout="uhghl(['bugs_fk_bugs usrs','public.bugs.usr_add_id','public.usrs.usr_id'])" transform='translate(8,0)' class='unhighlight' d='M 512,64L 432,64' >
+<path id='bugs_fk_bugs usrs'  onmouseover="hghl(['bugs_fk_bugs usrs','public.bugs.usr_add_id','public.usrs.usr_id'])" onmouseout="uhghl(['bugs_fk_bugs usrs','public.bugs.usr_add_id','public.usrs.usr_id'])" transform='translate(8,0)' class='unhighlight' d='M 288,64L 176,64' >
 	<title>&#x1F517;  Foreign Key fk_bugs usrs
 bugs ref usrs ( usr_add_id -&gt; usr_id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 512,64L 432,64' ><title>&#x1F517;  Foreign Key fk_bugs usrs
+<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 288,64L 176,64' ><title>&#x1F517;  Foreign Key fk_bugs usrs
 bugs ref usrs ( usr_add_id -&gt; usr_id )</title></path>
-<text x='461' y='59' transform='rotate(0 461,59)' class='relName'>usr&#95;add&#95;id</text>
-<!-- == Fk 'bugs_fk_bugs projects' == -->
-<path id='bugs_fk_bugs projects'  onmouseover="hghl(['bugs_fk_bugs projects','public.bugs.prj_id','public.projects.prj_id'])" onmouseout="uhghl(['bugs_fk_bugs projects','public.bugs.prj_id','public.projects.prj_id'])" transform='translate(8,0)' class='unhighlight' d='M 512,192L 456,192Q 448,192 448,200L 448,296Q 448,304 440,304L 432,304' >
-	<title>&#x1F517;  Foreign Key fk_bugs projects
-bugs ref projects ( prj_id )</title>
+<text x='237' y='59' transform='rotate(0 237,59)' class='relName'>usr&#95;add&#95;id</text>
+<!-- == Fk 'usrs_working_on_bugs_fk_usrs_working_on_bugs bugs' == -->
+<path id='usrs_working_on_bugs_fk_usrs_working_on_bugs bugs'  onmouseover="hghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs bugs','public.usrs_working_on_bugs.bug_id','public.bugs.bug_id'])" onmouseout="uhghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs bugs','public.usrs_working_on_bugs.bug_id','public.bugs.bug_id'])" transform='translate(8,0)' class='unhighlight' d='M 272,240L 272,184Q 272,176 280,176L 288,176' >
+	<title>&#x1F517;  Foreign Key fk_usrs_working_on_bugs bugs
+usrs_working_on_bugs ref bugs ( bug_id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 512,192L 456,192Q 448,192 448,200L 448,296Q 448,304 440,304L 432,304' ><title>&#x1F517;  Foreign Key fk_bugs projects
-bugs ref projects ( prj_id )</title></path>
-<text x='490' y='187' transform='rotate(0 490,187)' class='relName'>prj&#95;id</text>
-<!-- == Fk 'processes_fk_processes usrs' == -->
-<path id='processes_fk_processes usrs'  onmouseover="hghl(['processes_fk_processes usrs','public.processes.usr_id','public.usrs.usr_id'])" onmouseout="uhghl(['processes_fk_processes usrs','public.processes.usr_id','public.usrs.usr_id'])" transform='translate(8,0)' class='unhighlight' d='M 192,272L 192,216Q 192,208 200,208L 312,208Q 320,208 320,200L 320,192' >
-	<title>&#x1F517;  Foreign Key fk_processes usrs
-processes ref usrs ( usr_id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 192,272L 192,216Q 192,208 200,208L 312,208Q 320,208 320,200L 320,192' ><title>&#x1F517;  Foreign Key fk_processes usrs
-processes ref usrs ( usr_id )</title></path>
-<text x='195' y='270' transform='rotate(270 195,270)' class='relName'>usr&#95;id</text>
-<!-- == Fk 'processes_fk_processes bugs' == -->
-<path id='processes_fk_processes bugs'  onmouseover="hghl(['processes_fk_processes bugs','public.processes.bug_id','public.bugs.bug_id'])" onmouseout="uhghl(['processes_fk_processes bugs','public.processes.bug_id','public.bugs.bug_id'])" transform='translate(8,0)' class='unhighlight' d='M 208,400L 536,400Q 544,400 544,392L 544,224' >
-	<title>&#x1F517;  Foreign Key fk_processes bugs
-processes ref bugs ( bug_id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 208,400L 536,400Q 544,400 544,392L 544,224' ><title>&#x1F517;  Foreign Key fk_processes bugs
-processes ref bugs ( bug_id )</title></path>
-<text x='217' y='395' transform='rotate(0 217,395)' class='relName'>bug&#95;id</text>
-<!-- == Fk 'usrs_fk_usrs projects' == -->
-<path id='usrs_fk_usrs projects'  onmouseover="hghl(['usrs_fk_usrs projects','public.usrs.prj_id','public.projects.prj_id'])" onmouseout="uhghl(['usrs_fk_usrs projects','public.usrs.prj_id','public.projects.prj_id'])" transform='translate(8,0)' class='unhighlight' d='M 336,192L 336,272' >
-	<title>&#x1F517;  Foreign Key fk_usrs projects
-usrs ref projects ( prj_id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 336,192L 336,272' ><title>&#x1F517;  Foreign Key fk_usrs projects
-usrs ref projects ( prj_id )</title></path>
-<text x='348' y='193' transform='rotate(90 348,193)' class='relName'>prj&#95;id</text>
+<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 272,240L 272,184Q 272,176 280,176L 288,176' ><title>&#x1F517;  Foreign Key fk_usrs_working_on_bugs bugs
+usrs_working_on_bugs ref bugs ( bug_id )</title></path>
+<text x='275' y='238' transform='rotate(270 275,238)' class='relName'>bug&#95;id</text>
 <!-- == Fk 'usrs_working_on_bugs_fk_usrs_working_on_bugs usrs' == -->
-<path id='usrs_working_on_bugs_fk_usrs_working_on_bugs usrs'  onmouseover="hghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs_working_on_bugs.usr_id','public.usrs.usr_id'])" onmouseout="uhghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs_working_on_bugs.usr_id','public.usrs.usr_id'])" transform='translate(8,0)' class='unhighlight' d='M 208,128L 288,128' >
+<path id='usrs_working_on_bugs_fk_usrs_working_on_bugs usrs'  onmouseover="hghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs_working_on_bugs.usr_id','public.usrs.usr_id'])" onmouseout="uhghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs_working_on_bugs.usr_id','public.usrs.usr_id'])" transform='translate(8,0)' class='unhighlight' d='M 192,240L 192,168Q 192,160 184,160L 176,160' >
 	<title>&#x1F517;  Foreign Key fk_usrs_working_on_bugs usrs
 usrs_working_on_bugs ref usrs ( usr_id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 208,128L 288,128' ><title>&#x1F517;  Foreign Key fk_usrs_working_on_bugs usrs
+<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 192,240L 192,168Q 192,160 184,160L 176,160' ><title>&#x1F517;  Foreign Key fk_usrs_working_on_bugs usrs
 usrs_working_on_bugs ref usrs ( usr_id )</title></path>
-<text x='217' y='123' transform='rotate(0 217,123)' class='relName'>usr&#95;id</text>
-<!-- == Table 'bugs' == -->
-<rect id='depict_public&#46;bugs' class='entity' style='stroke:none;' x='528' y='40' width='128' height='176' rx='4' ry='4' />
-<path d='M 528 68 L 528 44 Q 528 40 532 40 L 652 40 Q 656 40 656 44 L 656 68 L528 68 ' style='fill:url(#tbg_BED3F4);stroke-width:0;' />
-<rect class='entity' x='528' y='40' width='128' height='176' rx='4' ry='4' style='fill:none;stroke:#E1E7F2'/>
-<a xlink:href='#public.bugs'><text x='574' y='59' >bugs</text><title>Table public.bugs</title></a>
-  <use id='nn' x='530' y='77' xlink:href='#nn'/><use id='pk' x='530' y='76' xlink:href='#pk'><title>&#x1F511;  Pk pk_bugs ( bug_id ) </title></use><a xlink:href='#public.bugs_bug_id'><text id='public&#46;bugs&#46;bug&#95;id' x='547' y='87' onmouseover="hghl(['processes_fk_processes bugs','public.processes.bug_id'])" onmouseout="uhghl(['processes_fk_processes bugs','public.processes.bug_id'])">bug&#95;id</text><title>&#10697;  bug_id
-     * int
- &#8601; processes( bug_id )</title></a>
-<a xlink:href='#public.bugs.bug_id'><use id='ref' x='644' y='76' xlink:href='#ref'/><title>&#x1F517;  Referred by processes ( bug_id ) </title></a>
-  <use id='nn' x='530' y='93' xlink:href='#nn'/><a xlink:href='#public.bugs_usr_add_id'><text id='public&#46;bugs&#46;usr&#95;add&#95;id' x='547' y='103' onmouseover="hghl(['bugs_fk_bugs usrs','public.usrs.usr_id'])" onmouseout="uhghl(['bugs_fk_bugs usrs','public.usrs.usr_id'])">usr&#95;add&#95;id</text><title>&#10697;  usr_add_id
-     * int
- &#8599; bugs( usr_id )</title></a>
-<a xlink:href='#public.bugs.usr_add_id'><use id='fk' x='644' y='92' xlink:href='#fk'/><title>&#x1F517;  References usrs ( usr_add_id -&gt; usr_id ) </title></a>
-  <use id='nn' x='530' y='109' xlink:href='#nn'/><a xlink:href='#public.bugs_bug_name'><text id='public&#46;bugs&#46;bug&#95;name' x='547' y='119'>bug&#95;name</text><title>&#10697;  bug_name
-     * varchar(100)</title></a>
-<text x='653' y='116' text-anchor='end' class='colType'>t</text>  <use id='nn' x='530' y='125' xlink:href='#nn'/><a xlink:href='#public.bugs_bug_type'><text id='public&#46;bugs&#46;bug&#95;type' x='547' y='135'>bug&#95;type</text><title>&#10697;  bug_type
-     * varchar(100)</title></a>
-<text x='653' y='132' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.bugs_bug_description'><text id='public&#46;bugs&#46;bug&#95;description' x='547' y='151'>bug&#95;description</text><title>&#10697;  bug_description
-     varchar(500)</title></a>
-<text x='653' y='148' text-anchor='end' class='colType'>t</text>  <use id='nn' x='530' y='157' xlink:href='#nn'/><a xlink:href='#public.bugs_Priorty'><text id='public&#46;bugs&#46;Priorty' x='547' y='167'>Priorty</text><title>&#10697;  Priorty
-     * int</title></a>
-<text x='653' y='164' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='530' y='173' xlink:href='#nn'/><a xlink:href='#public.bugs_status'><text id='public&#46;bugs&#46;status' x='547' y='183'>status</text><title>&#10697;  status
-     * int</title></a>
-<text x='653' y='180' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='530' y='189' xlink:href='#nn'/><a xlink:href='#public.bugs_prj_id'><text id='public&#46;bugs&#46;prj&#95;id' x='547' y='199' onmouseover="hghl(['bugs_fk_bugs projects','public.projects.prj_id'])" onmouseout="uhghl(['bugs_fk_bugs projects','public.projects.prj_id'])">prj&#95;id</text><title>&#10697;  prj_id
-     * int
- &#8599; bugs( prj_id )</title></a>
-<a xlink:href='#public.bugs.prj_id'><use id='fk' x='644' y='188' xlink:href='#fk'/><title>&#x1F517;  References projects ( prj_id ) </title></a>
-
-<!-- == Table 'processes' == -->
-<rect id='depict_public&#46;processes' class='entity' style='stroke:none;' x='48' y='280' width='160' height='128' rx='4' ry='4' />
-<path d='M 48 308 L 48 284 Q 48 280 52 280 L 204 280 Q 208 280 208 284 L 208 308 L48 308 ' style='fill:url(#tbg_BED3F4);stroke-width:0;' />
-<rect class='entity' x='48' y='280' width='160' height='128' rx='4' ry='4' style='fill:none;stroke:#E1E7F2'/>
-<a xlink:href='#public.processes'><text x='97' y='299' >processes</text><title>Table public.processes</title></a>
-  <use id='nn' x='50' y='317' xlink:href='#nn'/><use id='pk' x='50' y='316' xlink:href='#pk'><title>&#x1F511;  Pk pk_processes ( process_id ) </title></use><a xlink:href='#public.processes_process_id'><text id='public&#46;processes&#46;process&#95;id' x='67' y='327'>process&#95;id</text><title>&#10697;  process_id
-     * int</title></a>
-<text x='205' y='324' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='50' y='333' xlink:href='#nn'/><a xlink:href='#public.processes_process_time'><text id='public&#46;processes&#46;process&#95;time' x='67' y='343'>process&#95;time</text><title>&#10697;  process_time
-     * date</title></a>
-<text x='205' y='340' text-anchor='end' class='colType'>d</text>  <use id='nn' x='50' y='349' xlink:href='#nn'/><a xlink:href='#public.processes_process_description'><text id='public&#46;processes&#46;process&#95;description' x='67' y='359'>process&#95;description</text><title>&#10697;  process_description
-     * varchar(500)</title></a>
-<text x='205' y='356' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='365' xlink:href='#nn'/><a xlink:href='#public.processes_bug_id'><text id='public&#46;processes&#46;bug&#95;id' x='67' y='375' onmouseover="hghl(['processes_fk_processes bugs','public.bugs.bug_id'])" onmouseout="uhghl(['processes_fk_processes bugs','public.bugs.bug_id'])">bug&#95;id</text><title>&#10697;  bug_id
-     * int
- &#8599; processes( bug_id )</title></a>
-<a xlink:href='#public.processes.bug_id'><use id='fk' x='196' y='364' xlink:href='#fk'/><title>&#x1F517;  References bugs ( bug_id ) </title></a>
-  <use id='nn' x='50' y='381' xlink:href='#nn'/><a xlink:href='#public.processes_usr_id'><text id='public&#46;processes&#46;usr&#95;id' x='67' y='391' onmouseover="hghl(['processes_fk_processes usrs','public.usrs.usr_id'])" onmouseout="uhghl(['processes_fk_processes usrs','public.usrs.usr_id'])">usr&#95;id</text><title>&#10697;  usr_id
-     * int
- &#8599; processes( usr_id )</title></a>
-<a xlink:href='#public.processes.usr_id'><use id='fk' x='196' y='380' xlink:href='#fk'/><title>&#x1F517;  References usrs ( usr_id ) </title></a>
-
-<!-- == Table 'projects' == -->
-<rect id='depict_public&#46;projects' class='entity' style='stroke:none;' x='304' y='280' width='128' height='96' rx='4' ry='4' />
-<path d='M 304 308 L 304 284 Q 304 280 308 280 L 428 280 Q 432 280 432 284 L 432 308 L304 308 ' style='fill:url(#tbg_BED3F4);stroke-width:0;' />
-<rect class='entity' x='304' y='280' width='128' height='96' rx='4' ry='4' style='fill:none;stroke:#E1E7F2'/>
-<a xlink:href='#public.projects'><text x='342' y='299' >projects</text><title>Table public.projects</title></a>
-  <use id='nn' x='306' y='317' xlink:href='#nn'/><use id='pk' x='306' y='316' xlink:href='#pk'><title>&#x1F511;  Pk pk_projects ( prj_id ) </title></use><a xlink:href='#public.projects_prj_id'><text id='public&#46;projects&#46;prj&#95;id' x='323' y='327' onmouseover="hghl(['bugs_fk_bugs projects','public.bugs.prj_id','usrs_fk_usrs projects','public.usrs.prj_id'])" onmouseout="uhghl(['bugs_fk_bugs projects','public.bugs.prj_id','usrs_fk_usrs projects','public.usrs.prj_id'])">prj&#95;id</text><title>&#10697;  prj_id
-     * int
- &#8601; bugs( prj_id )
- &#8601; usrs( prj_id )</title></a>
-<a xlink:href='#public.projects.prj_id'><use id='ref' x='420' y='316' xlink:href='#ref'/><title>&#x1F517;  Referred by bugs ( prj_id ) 
-Referred by usrs ( prj_id ) </title></a>
-  <use id='nn' x='306' y='333' xlink:href='#nn'/><a xlink:href='#public.projects_prj_name'><text id='public&#46;projects&#46;prj&#95;name' x='323' y='343'>prj&#95;name</text><title>&#10697;  prj_name
-     * varchar(100)</title></a>
-<text x='429' y='340' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.projects_prj_description'><text id='public&#46;projects&#46;prj&#95;description' x='323' y='359'>prj&#95;description</text><title>&#10697;  prj_description
-     varchar(500)</title></a>
-<text x='429' y='356' text-anchor='end' class='colType'>t</text>
+<text x='195' y='238' transform='rotate(270 195,238)' class='relName'>usr&#95;id</text>
 <!-- == Table 'usrs' == -->
-<rect id='depict_public&#46;usrs' class='entity' style='stroke:none;' x='304' y='40' width='128' height='144' rx='4' ry='4' />
-<path d='M 304 68 L 304 44 Q 304 40 308 40 L 428 40 Q 432 40 432 44 L 432 68 L304 68 ' style='fill:url(#tbg_BED3F4);stroke-width:0;' />
-<rect class='entity' x='304' y='40' width='128' height='144' rx='4' ry='4' style='fill:none;stroke:#E1E7F2'/>
-<a xlink:href='#public.usrs'><text x='353' y='59' >usrs</text><title>Table public.usrs</title></a>
-  <use id='nn' x='306' y='77' xlink:href='#nn'/><use id='pk' x='306' y='76' xlink:href='#pk'><title>&#x1F511;  Pk pk_usrs ( usr_id ) </title></use><a xlink:href='#public.usrs_usr_id'><text id='public&#46;usrs&#46;usr&#95;id' x='323' y='87' onmouseover="hghl(['bugs_fk_bugs usrs','public.bugs.usr_add_id','processes_fk_processes usrs','public.processes.usr_id','usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs_working_on_bugs.usr_id'])" onmouseout="uhghl(['bugs_fk_bugs usrs','public.bugs.usr_add_id','processes_fk_processes usrs','public.processes.usr_id','usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs_working_on_bugs.usr_id'])">usr&#95;id</text><title>&#10697;  usr_id
+<rect id='depict_public&#46;usrs' class='entity' style='stroke:none;' x='48' y='40' width='128' height='128' rx='4' ry='4' />
+<path d='M 48 68 L 48 44 Q 48 40 52 40 L 172 40 Q 176 40 176 44 L 176 68 L48 68 ' style='fill:url(#tbg_BED3F4);stroke-width:0;' />
+<rect class='entity' x='48' y='40' width='128' height='128' rx='4' ry='4' style='fill:none;stroke:#E1E7F2'/>
+<a xlink:href='#public.usrs'><text x='97' y='59' >usrs</text><title>Table public.usrs</title></a>
+  <use id='nn' x='50' y='77' xlink:href='#nn'/><use id='pk' x='50' y='76' xlink:href='#pk'><title>&#x1F511;  Pk pk_usrs ( usr_id ) </title></use><a xlink:href='#public.usrs_usr_id'><text id='public&#46;usrs&#46;usr&#95;id' x='67' y='87' onmouseover="hghl(['bugs_fk_bugs usrs','public.bugs.usr_add_id','usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs_working_on_bugs.usr_id'])" onmouseout="uhghl(['bugs_fk_bugs usrs','public.bugs.usr_add_id','usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs_working_on_bugs.usr_id'])">usr&#95;id</text><title>&#10697;  usr_id
      * int
  &#8601; bugs( usr_id )
- &#8601; processes( usr_id )
  &#8601; usrs_working_on_bugs( usr_id )</title></a>
-<a xlink:href='#public.usrs.usr_id'><use id='ref' x='420' y='76' xlink:href='#ref'/><title>&#x1F517;  Referred by bugs ( usr_add_id -&gt; usr_id ) 
-Referred by processes ( usr_id ) 
+<a xlink:href='#public.usrs.usr_id'><use id='ref' x='164' y='76' xlink:href='#ref'/><title>&#x1F517;  Referred by bugs ( usr_add_id -&gt; usr_id ) 
 Referred by usrs_working_on_bugs ( usr_id ) </title></a>
-  <use id='nn' x='306' y='93' xlink:href='#nn'/><a xlink:href='#public.usrs_usr_name'><text id='public&#46;usrs&#46;usr&#95;name' x='323' y='103'>usr&#95;name</text><title>&#10697;  usr_name
+  <use id='nn' x='50' y='93' xlink:href='#nn'/><a xlink:href='#public.usrs_usr_name'><text id='public&#46;usrs&#46;usr&#95;name' x='67' y='103'>usr&#95;name</text><title>&#10697;  usr_name
      * varchar(100)</title></a>
-<text x='429' y='100' text-anchor='end' class='colType'>t</text>  <use id='nn' x='306' y='109' xlink:href='#nn'/><a xlink:href='#public.usrs_usr_username'><text id='public&#46;usrs&#46;usr&#95;username' x='323' y='119'>usr&#95;username</text><title>&#10697;  usr_username
+<text x='173' y='100' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='109' xlink:href='#nn'/><use id='unq' x='50' y='108' xlink:href='#unq'><title>&#x1F50D;  Unq unq_usrs_usr_username ( usr_username ) </title></use><a xlink:href='#public.usrs_usr_username'><text id='public&#46;usrs&#46;usr&#95;username' x='67' y='119'>usr&#95;username</text><title>&#10697;  usr_username
      * varchar(100)</title></a>
-<text x='429' y='116' text-anchor='end' class='colType'>t</text>  <use id='nn' x='306' y='125' xlink:href='#nn'/><a xlink:href='#public.usrs_usr_pass'><text id='public&#46;usrs&#46;usr&#95;pass' x='323' y='135'>usr&#95;pass</text><title>&#10697;  usr_pass
+<text x='173' y='116' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='125' xlink:href='#nn'/><a xlink:href='#public.usrs_usr_pass'><text id='public&#46;usrs&#46;usr&#95;pass' x='67' y='135'>usr&#95;pass</text><title>&#10697;  usr_pass
      * varchar(50)</title></a>
-<text x='429' y='132' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.usrs_job_title'><text id='public&#46;usrs&#46;job&#95;title' x='323' y='151'>job&#95;title</text><title>&#10697;  job_title
+<text x='173' y='132' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.usrs_job_title'><text id='public&#46;usrs&#46;job&#95;title' x='67' y='151'>job&#95;title</text><title>&#10697;  job_title
      varchar(100)</title></a>
-<text x='429' y='148' text-anchor='end' class='colType'>t</text>  <use id='nn' x='306' y='157' xlink:href='#nn'/><a xlink:href='#public.usrs_prj_id'><text id='public&#46;usrs&#46;prj&#95;id' x='323' y='167' onmouseover="hghl(['usrs_fk_usrs projects','public.projects.prj_id'])" onmouseout="uhghl(['usrs_fk_usrs projects','public.projects.prj_id'])">prj&#95;id</text><title>&#10697;  prj_id
+<text x='173' y='148' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'bugs' == -->
+<rect id='depict_public&#46;bugs' class='entity' style='stroke:none;' x='304' y='40' width='128' height='160' rx='4' ry='4' />
+<path d='M 304 68 L 304 44 Q 304 40 308 40 L 428 40 Q 432 40 432 44 L 432 68 L304 68 ' style='fill:url(#tbg_BED3F4);stroke-width:0;' />
+<rect class='entity' x='304' y='40' width='128' height='160' rx='4' ry='4' style='fill:none;stroke:#E1E7F2'/>
+<a xlink:href='#public.bugs'><text x='350' y='59' >bugs</text><title>Table public.bugs</title></a>
+  <use id='nn' x='306' y='77' xlink:href='#nn'/><use id='pk' x='306' y='76' xlink:href='#pk'><title>&#x1F511;  Pk pk_bugs ( bug_id ) </title></use><a xlink:href='#public.bugs_bug_id'><text id='public&#46;bugs&#46;bug&#95;id' x='323' y='87' onmouseover="hghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs bugs','public.usrs_working_on_bugs.bug_id'])" onmouseout="uhghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs bugs','public.usrs_working_on_bugs.bug_id'])">bug&#95;id</text><title>&#10697;  bug_id
      * int
- &#8599; usrs( prj_id )</title></a>
-<a xlink:href='#public.usrs.prj_id'><use id='fk' x='420' y='156' xlink:href='#fk'/><title>&#x1F517;  References projects ( prj_id ) </title></a>
-
-<!-- == Table 'usrs_working_on_bugs' == -->
-<rect id='depict_public&#46;usrs&#95;working&#95;on&#95;bugs' class='entity' style='stroke:none;' x='64' y='104' width='144' height='80' rx='4' ry='4' />
-<path d='M 64 132 L 64 108 Q 64 104 68 104 L 204 104 Q 208 104 208 108 L 208 132 L64 132 ' style='fill:url(#tbg_BED3F4);stroke-width:0;' />
-<rect class='entity' x='64' y='104' width='144' height='80' rx='4' ry='4' style='fill:none;stroke:#E1E7F2'/>
-<a xlink:href='#public.usrs_working_on_bugs'><text x='68' y='123' >usrs&#95;working&#95;on&#95;bugs</text><title>Table public.usrs_working_on_bugs</title></a>
-  <use id='nn' x='66' y='141' xlink:href='#nn'/><use id='pk' x='66' y='140' xlink:href='#pk'><title>&#x1F511;  Pk pk_usrs_working_on_bugs ( bug_id ) </title></use><a xlink:href='#public.usrs_working_on_bugs_bug_id'><text id='public&#46;usrs&#95;working&#95;on&#95;bugs&#46;bug&#95;id' x='83' y='151'>bug&#95;id</text><title>&#10697;  bug_id
+ &#8601; usrs_working_on_bugs( bug_id )</title></a>
+<a xlink:href='#public.bugs.bug_id'><use id='ref' x='420' y='76' xlink:href='#ref'/><title>&#x1F517;  Referred by usrs_working_on_bugs ( bug_id ) </title></a>
+  <use id='nn' x='306' y='93' xlink:href='#nn'/><a xlink:href='#public.bugs_usr_add_id'><text id='public&#46;bugs&#46;usr&#95;add&#95;id' x='323' y='103' onmouseover="hghl(['bugs_fk_bugs usrs','public.usrs.usr_id'])" onmouseout="uhghl(['bugs_fk_bugs usrs','public.usrs.usr_id'])">usr&#95;add&#95;id</text><title>&#10697;  usr_add_id
+     * int
+ &#8599; bugs( usr_id )</title></a>
+<a xlink:href='#public.bugs.usr_add_id'><use id='fk' x='420' y='92' xlink:href='#fk'/><title>&#x1F517;  References usrs ( usr_add_id -&gt; usr_id ) </title></a>
+  <use id='nn' x='306' y='109' xlink:href='#nn'/><a xlink:href='#public.bugs_bug_title'><text id='public&#46;bugs&#46;bug&#95;title' x='323' y='119'>bug&#95;title</text><title>&#10697;  bug_title
+     * varchar(100)</title></a>
+<text x='429' y='116' text-anchor='end' class='colType'>t</text>  <use id='nn' x='306' y='125' xlink:href='#nn'/><a xlink:href='#public.bugs_bug_type'><text id='public&#46;bugs&#46;bug&#95;type' x='323' y='135'>bug&#95;type</text><title>&#10697;  bug_type
+     * varchar(100)</title></a>
+<text x='429' y='132' text-anchor='end' class='colType'>t</text>  <a xlink:href='#public.bugs_bug_description'><text id='public&#46;bugs&#46;bug&#95;description' x='323' y='151'>bug&#95;description</text><title>&#10697;  bug_description
+     varchar(500)</title></a>
+<text x='429' y='148' text-anchor='end' class='colType'>t</text>  <use id='nn' x='306' y='157' xlink:href='#nn'/><a xlink:href='#public.bugs_Priorty'><text id='public&#46;bugs&#46;Priorty' x='323' y='167'>Priorty</text><title>&#10697;  Priorty
      * int</title></a>
-<text x='205' y='148' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='66' y='157' xlink:href='#nn'/><a xlink:href='#public.usrs_working_on_bugs_usr_id'><text id='public&#46;usrs&#95;working&#95;on&#95;bugs&#46;usr&#95;id' x='83' y='167' onmouseover="hghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs.usr_id'])" onmouseout="uhghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs.usr_id'])">usr&#95;id</text><title>&#10697;  usr_id
+<text x='429' y='164' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='306' y='173' xlink:href='#nn'/><a xlink:href='#public.bugs_status'><text id='public&#46;bugs&#46;status' x='323' y='183'>status</text><title>&#10697;  status
+     * int</title></a>
+<text x='429' y='180' text-anchor='end' class='colType'>&#35;</text>
+<!-- == Table 'usrs_working_on_bugs' == -->
+<rect id='depict_public&#46;usrs&#95;working&#95;on&#95;bugs' class='entity' style='stroke:none;' x='160' y='248' width='144' height='80' rx='4' ry='4' />
+<path d='M 160 276 L 160 252 Q 160 248 164 248 L 300 248 Q 304 248 304 252 L 304 276 L160 276 ' style='fill:url(#tbg_BED3F4);stroke-width:0;' />
+<rect class='entity' x='160' y='248' width='144' height='80' rx='4' ry='4' style='fill:none;stroke:#E1E7F2'/>
+<a xlink:href='#public.usrs_working_on_bugs'><text x='164' y='267' >usrs&#95;working&#95;on&#95;bugs</text><title>Table public.usrs_working_on_bugs</title></a>
+  <use id='nn' x='162' y='285' xlink:href='#nn'/><a xlink:href='#public.usrs_working_on_bugs_bug_id'><text id='public&#46;usrs&#95;working&#95;on&#95;bugs&#46;bug&#95;id' x='179' y='295' onmouseover="hghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs bugs','public.bugs.bug_id'])" onmouseout="uhghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs bugs','public.bugs.bug_id'])">bug&#95;id</text><title>&#10697;  bug_id
+     * int
+ &#8599; usrs_working_on_bugs( bug_id )</title></a>
+<a xlink:href='#public.usrs_working_on_bugs.bug_id'><use id='fk' x='292' y='284' xlink:href='#fk'/><title>&#x1F517;  References bugs ( bug_id ) </title></a>
+  <use id='nn' x='162' y='301' xlink:href='#nn'/><a xlink:href='#public.usrs_working_on_bugs_usr_id'><text id='public&#46;usrs&#95;working&#95;on&#95;bugs&#46;usr&#95;id' x='179' y='311' onmouseover="hghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs.usr_id'])" onmouseout="uhghl(['usrs_working_on_bugs_fk_usrs_working_on_bugs usrs','public.usrs.usr_id'])">usr&#95;id</text><title>&#10697;  usr_id
      * int
  &#8599; usrs_working_on_bugs( usr_id )</title></a>
-<a xlink:href='#public.usrs_working_on_bugs.usr_id'><use id='fk' x='196' y='156' xlink:href='#fk'/><title>&#x1F517;  References usrs ( usr_id ) </title></a>
+<a xlink:href='#public.usrs_working_on_bugs.usr_id'><use id='fk' x='292' y='300' xlink:href='#fk'/><title>&#x1F517;  References usrs ( usr_id ) </title></a>
 
 </g></svg></div>
 <script type='text/javascript'>
@@ -520,7 +452,7 @@ function installListeners( svgContainer, svgImage ){
 <div class='card'><div class='card-body'><a name='public' style='cursor:pointer;'><h5 class='card-title'>Schema public</h5></div></div>
 
 <br><br>
-<div class='card'><div class='card-body'><a name='public.bugs'  onclick="window.scrollTo(328, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.bugs').classList.add('palpable'); return false;" style='cursor:pointer;'><h5 class='card-title'>Table bugs</h5></a>
+<div class='card'><div class='card-body'><a name='public.bugs'  onclick="window.scrollTo(104, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.bugs').classList.add('palpable'); return false;" style='cursor:pointer;'><h5 class='card-title'>Table bugs</h5></a>
 <table class='table table-sm small' style='table-layout: fixed; word-wrap: break-word;'>
 <thead>
 <tr><th style='width:5%'>Idx</th><th style='width:40%'>Column Name</th><th>Data Type</th></tr>
@@ -529,7 +461,7 @@ function installListeners( svgContainer, svgImage ){
 	<tr>
 		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
 		<td><a name='public.bugs_bug_id'>bug&#95;id</a></td>
-		<td> INT  </td>
+		<td> INT AUTO_INCREMENT </td>
 	</tr>
 	<tr>
 		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
@@ -538,7 +470,7 @@ function installListeners( svgContainer, svgImage ){
 	</tr>
 	<tr>
 		<td>*</td>
-		<td><a name='public.bugs_bug_name'>bug&#95;name</a></td>
+		<td><a name='public.bugs_bug_title'>bug&#95;title</a></td>
 		<td> VARCHAR&#40;100&#41;  </td>
 	</tr>
 	<tr>
@@ -561,11 +493,6 @@ function installListeners( svgContainer, svgImage ){
 		<td><a name='public.bugs_status'>status</a></td>
 		<td> INT  </td>
 	</tr>
-	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
-		<td><a name='public.bugs_prj_id'>prj&#95;id</a></td>
-		<td> INT  </td>
-	</tr>
 <tr><th colspan='3'>Indexes</th></tr>
 	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>pk&#95;bugs</td>
 		<td> ON bug&#95;id</td>
@@ -573,108 +500,18 @@ function installListeners( svgContainer, svgImage ){
 <tr><th colspan='3'>Foreign Key</th></tr>
 	<tr>
 		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_bugs usrs</td>
-		<td > usr&#95;add&#95;id &#8599; <a href='#public&#46;usrs'  onclick="window.scrollTo(104, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs').classList.add('palpable'); return false;">&#10063; usrs</a>(usr&#95;id) </td>
-	</tr>
-	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_bugs projects</td>
-		<td > prj&#95;id &#8599; <a href='#public&#46;projects'  onclick="window.scrollTo(104, 288);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.projects').classList.add('palpable'); return false;">&#10063; projects</a> </td>
+		<td > usr&#95;add&#95;id &#8599; <a href='#public&#46;usrs'  onclick="window.scrollTo(60, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs').classList.add('palpable'); return false;">&#10063; usrs</a>(usr&#95;id) </td>
 	</tr>
 <tr><th colspan='3'>Referring Foreign Key</th></tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#ref'/></svg></td><td>fk_processes bugs</td>
-		<td > bug&#95;id &#8601; <a href='#public&#46;processes'  onclick="window.scrollTo(60, 288);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.processes').classList.add('palpable'); return false;">&#10063; processes</a> </td>
+		<td><svg width='14' height='14'><use xlink:href='#ref'/></svg></td><td>fk_usrs_working_on_bugs bugs</td>
+		<td > bug&#95;id &#8601; <a href='#public&#46;usrs&#95;working&#95;on&#95;bugs'  onclick="window.scrollTo(60, 256);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs_working_on_bugs').classList.add('palpable'); return false;">&#10063; usrs&#95;working&#95;on&#95;bugs</a> </td>
 	</tr>
 </tbody>
 </table></div></div>
 
 <br><br>
-<div class='card'><div class='card-body'><a name='public.processes'  onclick="window.scrollTo(60, 288);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.processes').classList.add('palpable'); return false;" style='cursor:pointer;'><h5 class='card-title'>Table processes</h5></a>
-<table class='table table-sm small' style='table-layout: fixed; word-wrap: break-word;'>
-<thead>
-<tr><th style='width:5%'>Idx</th><th style='width:40%'>Column Name</th><th>Data Type</th></tr>
-</thead>
-<tbody>
-	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
-		<td><a name='public.processes_process_id'>process&#95;id</a></td>
-		<td> INT  </td>
-	</tr>
-	<tr>
-		<td>*</td>
-		<td><a name='public.processes_process_time'>process&#95;time</a></td>
-		<td> DATE  </td>
-	</tr>
-	<tr>
-		<td>*</td>
-		<td><a name='public.processes_process_description'>process&#95;description</a></td>
-		<td> VARCHAR&#40;500&#41;  </td>
-	</tr>
-	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
-		<td><a name='public.processes_bug_id'>bug&#95;id</a></td>
-		<td> INT  </td>
-	</tr>
-	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
-		<td><a name='public.processes_usr_id'>usr&#95;id</a></td>
-		<td> INT  </td>
-	</tr>
-<tr><th colspan='3'>Indexes</th></tr>
-	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>pk&#95;processes</td>
-		<td> ON process&#95;id</td>
-	</tr>
-<tr><th colspan='3'>Foreign Key</th></tr>
-	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_processes usrs</td>
-		<td > usr&#95;id &#8599; <a href='#public&#46;usrs'  onclick="window.scrollTo(104, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs').classList.add('palpable'); return false;">&#10063; usrs</a> </td>
-	</tr>
-	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_processes bugs</td>
-		<td > bug&#95;id &#8599; <a href='#public&#46;bugs'  onclick="window.scrollTo(328, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.bugs').classList.add('palpable'); return false;">&#10063; bugs</a> </td>
-	</tr>
-</tbody>
-</table></div></div>
-
-<br><br>
-<div class='card'><div class='card-body'><a name='public.projects'  onclick="window.scrollTo(104, 288);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.projects').classList.add('palpable'); return false;" style='cursor:pointer;'><h5 class='card-title'>Table projects</h5></a>
-<table class='table table-sm small' style='table-layout: fixed; word-wrap: break-word;'>
-<thead>
-<tr><th style='width:5%'>Idx</th><th style='width:40%'>Column Name</th><th>Data Type</th></tr>
-</thead>
-<tbody>
-	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
-		<td><a name='public.projects_prj_id'>prj&#95;id</a></td>
-		<td> INT  </td>
-	</tr>
-	<tr>
-		<td>*</td>
-		<td><a name='public.projects_prj_name'>prj&#95;name</a></td>
-		<td> VARCHAR&#40;100&#41;  </td>
-	</tr>
-	<tr>
-		<td>&nbsp;</td>
-		<td><a name='public.projects_prj_description'>prj&#95;description</a></td>
-		<td> VARCHAR&#40;500&#41;  </td>
-	</tr>
-<tr><th colspan='3'>Indexes</th></tr>
-	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>pk&#95;projects</td>
-		<td> ON prj&#95;id</td>
-	</tr>
-<tr><th colspan='3'>Referring Foreign Key</th></tr>
-	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#ref'/></svg></td><td>fk_bugs projects</td>
-		<td > prj&#95;id &#8601; <a href='#public&#46;bugs'  onclick="window.scrollTo(328, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.bugs').classList.add('palpable'); return false;">&#10063; bugs</a> </td>
-	</tr>
-	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#ref'/></svg></td><td>fk_usrs projects</td>
-		<td > prj&#95;id &#8601; <a href='#public&#46;usrs'  onclick="window.scrollTo(104, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs').classList.add('palpable'); return false;">&#10063; usrs</a> </td>
-	</tr>
-</tbody>
-</table></div></div>
-
-<br><br>
-<div class='card'><div class='card-body'><a name='public.usrs'  onclick="window.scrollTo(104, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs').classList.add('palpable'); return false;" style='cursor:pointer;'><h5 class='card-title'>Table usrs</h5></a>
+<div class='card'><div class='card-body'><a name='public.usrs'  onclick="window.scrollTo(60, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs').classList.add('palpable'); return false;" style='cursor:pointer;'><h5 class='card-title'>Table usrs</h5></a>
 <table class='table table-sm small' style='table-layout: fixed; word-wrap: break-word;'>
 <thead>
 <tr><th style='width:5%'>Idx</th><th style='width:40%'>Column Name</th><th>Data Type</th></tr>
@@ -683,7 +520,7 @@ function installListeners( svgContainer, svgImage ){
 	<tr>
 		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
 		<td><a name='public.usrs_usr_id'>usr&#95;id</a></td>
-		<td> INT  </td>
+		<td> INT AUTO_INCREMENT </td>
 	</tr>
 	<tr>
 		<td>*</td>
@@ -691,7 +528,7 @@ function installListeners( svgContainer, svgImage ){
 		<td> VARCHAR&#40;100&#41;  </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg></td>
 		<td><a name='public.usrs_usr_username'>usr&#95;username</a></td>
 		<td> VARCHAR&#40;100&#41;  </td>
 	</tr>
@@ -705,45 +542,34 @@ function installListeners( svgContainer, svgImage ){
 		<td><a name='public.usrs_job_title'>job&#95;title</a></td>
 		<td> VARCHAR&#40;100&#41;  </td>
 	</tr>
-	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
-		<td><a name='public.usrs_prj_id'>prj&#95;id</a></td>
-		<td> INT  </td>
-	</tr>
 <tr><th colspan='3'>Indexes</th></tr>
 	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>pk&#95;usrs</td>
 		<td> ON usr&#95;id</td>
 	</tr>
-<tr><th colspan='3'>Foreign Key</th></tr>
-	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_usrs projects</td>
-		<td > prj&#95;id &#8599; <a href='#public&#46;projects'  onclick="window.scrollTo(104, 288);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.projects').classList.add('palpable'); return false;">&#10063; projects</a> </td>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>unq&#95;usrs&#95;usr&#95;username</td>
+		<td> ON usr&#95;username</td>
 	</tr>
 <tr><th colspan='3'>Referring Foreign Key</th></tr>
 	<tr>
 		<td><svg width='14' height='14'><use xlink:href='#ref'/></svg></td><td>fk_bugs usrs</td>
-		<td > usr&#95;id &#8601; <a href='#public&#46;bugs'  onclick="window.scrollTo(328, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.bugs').classList.add('palpable'); return false;">&#10063; bugs</a>(usr&#95;add&#95;id) </td>
-	</tr>
-	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#ref'/></svg></td><td>fk_processes usrs</td>
-		<td > usr&#95;id &#8601; <a href='#public&#46;processes'  onclick="window.scrollTo(60, 288);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.processes').classList.add('palpable'); return false;">&#10063; processes</a> </td>
+		<td > usr&#95;id &#8601; <a href='#public&#46;bugs'  onclick="window.scrollTo(104, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.bugs').classList.add('palpable'); return false;">&#10063; bugs</a>(usr&#95;add&#95;id) </td>
 	</tr>
 	<tr>
 		<td><svg width='14' height='14'><use xlink:href='#ref'/></svg></td><td>fk_usrs_working_on_bugs usrs</td>
-		<td > usr&#95;id &#8601; <a href='#public&#46;usrs&#95;working&#95;on&#95;bugs'  onclick="window.scrollTo(60, 112);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs_working_on_bugs').classList.add('palpable'); return false;">&#10063; usrs&#95;working&#95;on&#95;bugs</a> </td>
+		<td > usr&#95;id &#8601; <a href='#public&#46;usrs&#95;working&#95;on&#95;bugs'  onclick="window.scrollTo(60, 256);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs_working_on_bugs').classList.add('palpable'); return false;">&#10063; usrs&#95;working&#95;on&#95;bugs</a> </td>
 	</tr>
 </tbody>
 </table></div></div>
 
 <br><br>
-<div class='card'><div class='card-body'><a name='public.usrs_working_on_bugs'  onclick="window.scrollTo(60, 112);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs_working_on_bugs').classList.add('palpable'); return false;" style='cursor:pointer;'><h5 class='card-title'>Table usrs_working_on_bugs</h5></a>
+<div class='card'><div class='card-body'><a name='public.usrs_working_on_bugs'  onclick="window.scrollTo(60, 256);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs_working_on_bugs').classList.add('palpable'); return false;" style='cursor:pointer;'><h5 class='card-title'>Table usrs_working_on_bugs</h5></a>
 <table class='table table-sm small' style='table-layout: fixed; word-wrap: break-word;'>
 <thead>
 <tr><th style='width:5%'>Idx</th><th style='width:40%'>Column Name</th><th>Data Type</th></tr>
 </thead>
 <tbody>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.usrs_working_on_bugs_bug_id'>bug&#95;id</a></td>
 		<td> INT  </td>
 	</tr>
@@ -752,14 +578,14 @@ function installListeners( svgContainer, svgImage ){
 		<td><a name='public.usrs_working_on_bugs_usr_id'>usr&#95;id</a></td>
 		<td> INT  </td>
 	</tr>
-<tr><th colspan='3'>Indexes</th></tr>
-	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>pk&#95;usrs&#95;working&#95;on&#95;bugs</td>
-		<td> ON bug&#95;id</td>
-	</tr>
 <tr><th colspan='3'>Foreign Key</th></tr>
 	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_usrs_working_on_bugs bugs</td>
+		<td > bug&#95;id &#8599; <a href='#public&#46;bugs'  onclick="window.scrollTo(104, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.bugs').classList.add('palpable'); return false;">&#10063; bugs</a> </td>
+	</tr>
+	<tr>
 		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_usrs_working_on_bugs usrs</td>
-		<td > usr&#95;id &#8599; <a href='#public&#46;usrs'  onclick="window.scrollTo(104, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs').classList.add('palpable'); return false;">&#10063; usrs</a> </td>
+		<td > usr&#95;id &#8599; <a href='#public&#46;usrs'  onclick="window.scrollTo(60, 48);var nodes = document.getElementsByClassName('palpable');for (var i = 0; i < nodes.length; i++) { nodes[i].classList.remove('palpable');}; document.getElementById('depict_public.usrs').classList.add('palpable'); return false;">&#10063; usrs</a> </td>
 	</tr>
 </tbody>
 </table></div></div>
