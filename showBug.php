@@ -57,6 +57,11 @@ $result = mysqli_fetch_assoc(mysqli_query($conn, $query));
                     <th><?php echo $result['status'];?></th>
                 </tr>
             </thead>
+            <tfoot>
+            <td class="listCol" style="  background-color:  rgb(111, 60, 111);color: #E1D4C5 ;">
+                <a href="editBug.php?bugid=<?php echo $bug_id;?>&userid=<?php echo $user_id;?>">Edite Bug</a>
+            </td>
+        </tfoot>
         </table>
         
         <?php
