@@ -85,9 +85,7 @@
             </tfoot>
         </table>
     </form>
-    <?php
-    mysqli_close($conn);
-    ?>
+
 
 </body>
 

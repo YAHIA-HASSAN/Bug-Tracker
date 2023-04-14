@@ -5,7 +5,8 @@ if (!$conn) {
     exit;
 }
 $user_id = $_GET['userid'];
-$query = "select bugs.bug_id,bugs.bug_title from bugs where bugs.bug_id = any (SELECT bugs.bug_id from usrs_working_on_bugs WHERE usr_id =$user_id );";
+
+$query = "select bugs.bug_id,bugs.bug_title from bugs where bugs.usr_add_id =$user_id;";
 $result = mysqli_query($conn, $query);
 ?>
 <HTML>
