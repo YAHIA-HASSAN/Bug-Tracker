@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #E1D4C5;
+}
+head{
+   height: 15%;
+   text-indent: 3px;
+}
+body{
+    width: 100%;
+    position: fixed;
+    top:15%;
+    height: 85%;
+    text-indent: 3px;
+}
+table{
+    width: 100%;
+    text-align:center;
+    align-content: center;
+    text-indent: 3px;
+}
+thead{
+    background-color: gray;
+   color: white;
+}
+th{
+    text-align: center;
+    align-self: center;
+}
+
+#submit{
+    margin-top: 4vmax;
+    width: 100%;
+    align-self: center;
+    padding: 2vmin;
+    background-color:  rgb(111, 60, 111);
+    color: #E1D4C5 ;
+}
+#register{
+    margin: auto;
+    width: 100%;
+    align-self: center;
+    padding: 2vmin;
+    background-color:  rgb(111, 60, 111);
+    color: #E1D4C5 ;
+}
+
+a{
+    text-decoration: none;
+    color: #E1D4C5 ;
+ 
+}
+.edit{
+    background-color: green;
+}
+.delete{
+    background-color: red;
+}
+.center{
+    margin: auto;
+    width: 50%;
+    border: 3px solid cornflowerblue;
+    padding: 10px;
+}
+#showBug{
+    background-color: rgb(111, 60, 111);
+    color: rgb(135, 169, 171);
+    width: 100%;
+    margin: auto;
+    
+}
+.listBugs{
+    border:5px;
+    border-color:gray;
+    border-style: solid;
+}
+.listCol{
+    
+    border:1px;
+    border-color:gray;
+    border-style: solid;
+}
+.headItem{
+    margin-right: 10px;
+    background-color: rgb(88, 69, 94);
+    padding: 5px;
+    color: #E1D4C5;
+    border:3px;
+    border-color:rgb(224, 218, 218);
+    border-style: solid
+}
+.headMenue{
+    background-color: rgb(88, 69, 94);
+    width: 100%;
+    margin-left: 0px;
+    padding: 2%;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
